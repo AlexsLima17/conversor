@@ -11,9 +11,10 @@
     <form onsubmit="converter(event)">
         <h1>Conversor de Real para Dolar</h1>
         
+        <label for="real">Digite o valor da cotação do dólar:</label>
+        <input type="number" step="any" id= "cotacao" placeholder= "Digite o valor da cotação dólar" required >
         <label for="real">Digite o valor em Real:</label>
-        <input type="number" id= "real" placeholder= "Digite um número" required>
-        
+        <input type="number" step="any" id= "real" placeholder= "Digite um em real" required>
         <button type="submit">Converter</button>
         <button type="reset">Limpar</button>
         
